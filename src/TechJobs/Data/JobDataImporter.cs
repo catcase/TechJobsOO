@@ -47,7 +47,7 @@ namespace TechJobs.Data
             {
                 Employer employer = jobData.Employers.AddUnique(row[1]);
                 Location location = jobData.Locations.AddUnique(row[2]);
-                PositionType positionType = jobData.PositionTypes.AddUnique(row[3]);
+                Skill positionType = jobData.PositionTypes.AddUnique(row[3]);
                 CoreCompetency coreCompetency = jobData.CoreCompetencies.AddUnique(row[4]);
 
                 Job newJob = new Job

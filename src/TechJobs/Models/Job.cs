@@ -9,7 +9,7 @@
         public Employer Employer { get; set; }
         public Location Location { get; set; }
         public CoreCompetency CoreCompetency { get; set; }
-        public PositionType PositionType { get; set; }
+        public Skill PositionType { get; set; }
 
         public Job()
         {

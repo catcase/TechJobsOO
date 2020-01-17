@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TechJobs.Models
 {
-    public class PositionType : JobField
+    public class Skill : JobField
     {
         // No additional members yet. See JobField.cs
     }

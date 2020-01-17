@@ -23,9 +23,6 @@ namespace TechJobs.ViewModels
         // All columns, for display
         public List<JobFieldType> Columns { get; set; }
 
-        // View title
-        public string Title { get; set; } = "";
-
         public SearchJobsViewModel()
         {
             // Populate the list of all columns
