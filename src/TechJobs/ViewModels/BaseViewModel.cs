@@ -16,5 +16,9 @@ namespace TechJobs.ViewModels
         //repeated title code
         // View title
         public string Title { get; set; } = "";
+
+
+        // All columns, for display
+        public List<JobFieldType> Columns { get; set; }
     }
 }
